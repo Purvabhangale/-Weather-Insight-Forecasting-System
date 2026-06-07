@@ -1,7 +1,7 @@
 // ─── Backend API Service ──────────────────────────────────────────────────────
 // All data goes to MySQL database via Spring Boot backend at localhost:8081
 
-const API_BASE = "http://localhost:8081/api";
+const API_BASE =  "https://medicare-ai-backend.onrender.com/api";
 
 const getToken = () => localStorage.getItem("token");
 
